@@ -1,0 +1,205 @@
+@media screen and (max-width : 320px) {
+/* Styles */
+
+ ul#nav {
+	width: 100%;
+	}
+
+header .logo {
+	padding-left: 3%;
+	}
+
+ul#nav li {
+	float: left;
+	padding: 12% 6% 6% 6%;
+	}
+
+ul#nav li a {
+	font-family: 'bariol_regularregular';
+	letter-spacing: 1px;
+	color: #fff;
+	font-size: 1em;
+	padding-bottom: 15px;
+}
+
+.devices {
+	padding-top: 7%;
+}
+
+.profile_desc {
+	width: 100%;
+	padding: 17px 0px 0px 0px;
+	font-size: 1.4285714286em;
+	line-height: 24px;
+}
+
+.spacer {
+	width: 100%;
+	margin-left: 0px;
+}
+
+#triangle-down {
+	margin-left: 48%;
+}
+
+.two_cols_box1 {
+	width: 100%;
+	margin: 0px;
+	padding-bottom: 30px;
+}
+
+.midsection {
+	margin-top: 11%;
+	}
+
+.midsection_head {
+	font-size: 1.74285em;
+}
+
+.midsection_cont {
+	font-size: 1.085714em;
+	}
+
+ul#branches {
+	padding-top: 16px;
+	font-size: 1.085714em;
+	}
+}
+
+@media screen and (min-width : 321px) and (max-width: 460px) {
+	header .logo {
+	padding-left: 0%;
+	}
+
+	ul#nav {
+	width: 100%;
+	}
+
+	ul#nav li {
+	padding: 10% 2% 6% 2%;
+	}
+
+	.profile_desc {
+	width: 100%;
+	padding: 17px 0px 0px 0px;
+	font-size: 1.5285714286em;
+	line-height: 25px;
+	}
+
+	.spacer {
+	width: 100%;
+	margin-left: 0px;
+	}
+
+	.two_cols_box1 {
+	width: 100%;
+	margin: 0px;
+	padding-bottom: 30px;
+	}
+	.midsection {
+	margin-top: 11%;
+	}
+
+	.midsection_head {
+	font-size: 1.94285em;
+	}
+
+	.midsection_cont {
+	font-size: 1.285714em;
+	}
+
+	ul#branches {
+	padding-top: 16px;
+	font-size: 1.285714em;
+	}
+}
+
+@media screen and (min-width : 461px) and (max-width: 757px) {
+/* Styles */
+	header .logo {
+	padding-left: 0%;
+	}
+
+	ul#nav {
+	width: 94%;
+	}
+
+	ul#nav li {
+	padding: 10% 3% 6% 2%;
+	}
+
+	.profile_desc {
+	width: 100%;
+	padding: 17px 0px 0px 0px;
+	font-size: 1.5285714286em;
+	line-height: 25px;
+	}
+
+	.spacer {
+	width: 100%;
+	margin-left: 0px;
+	}
+
+	#triangle-down {
+	margin-left: 48%;
+	}
+
+	.two_cols_box1 {
+	width: 100%;
+	margin: 0px;
+	padding-bottom: 30px;
+	}
+
+	.midsection {
+	margin-top: 11%;
+	}
+
+	.midsection_head {
+	font-size: 1.94285em;
+	}
+
+.midsection_cont {
+	font-size: 1.285714em;
+	}
+
+ul#branches {
+	padding-top: 16px;
+	font-size: 1.285714em;
+	}
+}
+
+@media screen and (min-width : 758px) and (max-width: 1024px) {
+
+	header .logo {
+	padding-top: 1%;
+	float: left;
+	padding-left: 1%;
+	}
+
+	ul#nav {
+	width: 60%
+	}
+
+	.profile_desc {
+	width: 100%;
+	padding: 17px 0px 0px 0px;
+	font-size: 1.5285714286em;
+	line-height: 25px;
+	}
+
+	.spacer {
+	width: 65%;
+	margin-left: 18%;
+	}
+
+	#triangle-down {
+	margin-left: 50%;
+	}
+
+	.two_cols_box1 {
+	width: 42%;
+	float: left;
+	margin-left: 7%;
+	padding-bottom: 20px;
+	}
+}

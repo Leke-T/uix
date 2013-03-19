@@ -1,0 +1,161 @@
+/******************************
+	iPad Landscape Mode
+*******************************/
+@media (max-width: 1024px) {
+	
+}
+
+/******************************
+	iPad Landscape Potrait
+*******************************/
+@media screen and (max-width: 758px) {
+	ul#nav {
+		padding-left: 30px;
+		width: 56%;
+		float: right;
+		}
+
+		ul#nav li {
+		float: left;
+		padding: 8% 2% 6% 4%;
+		}
+
+		#desc-mobile { display: block; }
+		#desc { display: none;}
+
+		#desc-mobile p {
+		font-size: 2.0143em;
+		line-height: 1.7143em;
+		font-family: 'bariol_regularregular';
+		text-transform: uppercase;
+		color: #fff;
+		text-align: left;
+		}
+
+	 	#desc-mobile {
+		margin-top: 40%;
+		margin-left: 12%;
+		width: 80%;
+		display: block;
+	  	}
+}
+ 
+
+/******************************
+	SmartPhone
+*******************************/
+@media screen and (max-width: 640px) {
+
+	ul#nav {
+		padding-left: 30px;
+		width: 92%;
+		float: right;
+		}
+
+		ul#nav li {
+		float: left;
+		padding: 8% 3% 6% 4%;
+		}
+}
+
+/* Smartphones () ----------- */
+@media screen and (max-width : 470px) {
+
+	header .logo {
+		padding-left: 4%;
+	}
+
+	#desc { display: none; }
+
+	#desc-mobile {
+		margin-top: 45%;
+		margin-left: 4%;
+		width: 90%;
+		display: block;
+	  }
+
+#desc-mobile p {
+	font-size: 1.72857em;
+	line-height: 35px;
+	font-family: 'bariol_regularregular';
+	text-transform: uppercase;
+	text-align: left;
+	text-shadow: -5px 0px 12px rgba(104, 65, 39, 1);
+	color: #fff;
+	    }
+
+ul#nav {
+	padding-left: 30px;
+	height: 50px;
+	width: 100%;
+	float: right;
+	
+}
+
+ul#nav li {
+	float: left;
+	padding: 7% 4% 6% 3%; 
+}
+
+ul#nav li a {
+	font-family: 'bariol_regularregular';
+	letter-spacing: 1px;
+	color: #fff;
+	font-size: 1em;
+	padding-bottom: 10px;
+	}
+}
+
+@media screen and (max-width : 321px) {
+/* Styles */
+
+ ul#nav {
+	width: 100%;
+	}
+
+header .logo {
+	padding-left: 3%;
+	}
+
+ul#nav li {
+	float: left;
+	padding: 7% 2% 6% 3%;
+	}
+
+ul#nav li a {
+font-family: 'bariol_regularregular';
+letter-spacing: 1px;
+color: #fff;
+font-size: 0.7em;
+padding-bottom: 15px;
+}
+
+#desc {
+	display: none;
+	    }
+
+#desc-mobile p {
+font-size: 1.4143em;
+line-height: 1.7143em;
+font-family: 'bariol_regularregular';
+text-transform: uppercase;
+color: #fff;
+text-align: left;
+}
+
+	 #desc-mobile {
+		margin-top: 48%;
+		margin-left: 6%;
+		width: 90%;
+		display: block;
+	  }
+}
+
+@media (min-width : 481px) and (max-width: 767px)  {
+
+}
+
+/* Under 320px */
+@media only screen and (max-width: 319px) and (min-width: 5px)  {
+
+

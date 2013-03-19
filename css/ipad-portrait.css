@@ -1,0 +1,32 @@
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  
+  ul#nav {
+		padding-left: 30px;
+		width: 56%;
+		float: right;
+		}
+
+		ul#nav li {
+		float: left;
+		padding: 8% 2% 6% 4%;
+		}
+
+		#desc-mobile { display: block; }
+		#desc { display: none;}
+
+		#desc-mobile p {
+		font-size: 2.0143em;
+		line-height: 1.7143em;
+		font-family: 'bariol_regularregular';
+		text-transform: uppercase;
+		color: #fff;
+		text-align: left;
+		}
+
+	 	#desc-mobile {
+		margin-top: 40%;
+		margin-left: 12%;
+		width: 80%;
+		display: block;
+	  	}
+}
